@@ -1,0 +1,11 @@
+.vscode/**
+.git/**
+.gitignore
+.eslintrc.js
+tsconfig.json
+src/**
+node_modules/**
+*.ts
+**/*.map
+showcase/**
+Sample_Dark.tmTheme

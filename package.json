@@ -16,20 +16,12 @@
 	],
 	"icon": "images/logo.png",
 	"license": "MIT",
-	"activationEvents": [],
-	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "extension.sayHello",
-				"title": "Hello World"
-			}
-		],
 		"themes": [
 			{
 				"label": "Real Dark",
 				"uiTheme": "vs-dark",
-				"path": "./Sample_Dark.tmTheme"
+				"path": "./Sample_Dark-color-theme.json"
 			},
 			{
 				"label": "Real Light",
@@ -39,10 +31,7 @@
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"lint": "eslint \"src/**/*.ts\"",
-		"watch": "tsc -watch -p ./"
+		"lint": "eslint \"src/**/*.ts\""
 	},
 	"devDependencies": {
 		"@types/node": "^16.11.7",
